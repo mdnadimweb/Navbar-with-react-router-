@@ -17,7 +17,7 @@ nav {
 nav ul a {
 
     font-size: 28px ;
-    color: rgb(255, 205, 205);
+    color: rgb(255, 255, 255);
     list-style: none;
     padding:0px 20px ;
     text-decoration: none;
@@ -33,5 +33,10 @@ nav ul a:hover {
     transform: scale(1);
 }
 
+
+nav .active {
+
+    color: rgb(184, 14, 14) ;
+}
 
 
