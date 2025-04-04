@@ -1,0 +1,37 @@
+
+
+
+
+nav {
+
+
+    height:80px ; 
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+nav ul a {
+
+    font-size: 28px ;
+    color: rgb(255, 205, 205);
+    list-style: none;
+    padding:0px 20px ;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all linear 0.5s;
+
+
+}
+
+nav ul a:hover {
+
+    color: red;
+    transform: scale(1);
+}
+
+
+
