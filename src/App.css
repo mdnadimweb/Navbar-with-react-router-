@@ -1,71 +1,63 @@
-
-
-
+/* App.css */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 
 nav {
+  font-family: "Rubik", sans-serif;
+}
 
+body {
+  padding: 0px;
+  margin: 0px;
+}
 
-    height:80px ; 
-    background-color: rgb(167, 166, 166);
-    display: flex;
-    justify-content:space-between;
-    align-items:center ;
-    flex-direction: row;
-    width: 100%;
-    
-
+nav {
+  height: 80px;
+  background-color: rgb(167, 166, 166);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
 }
 
 nav ul a {
-
-    font-size: 28px ;
-    color: rgb(255, 255, 255);
-    list-style: none;
-    padding:0px 20px ;
-    text-decoration: none;
-    font-weight: bold;
-    transition: all linear 0.5s;
-
-
+  font-size: 26px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  list-style: none;
+  padding: 0px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all linear 0.5s;
 }
 
 nav .links {
-
-    padding-left: 50px ;
+  padding-left: 50px;
 }
 
 nav ul a:hover {
-
-    color: red;
-    transform: scale(1);
+  color: red;
+  transform: scale(1);
 }
 
-
 nav .active {
-
-    color: rgb(184, 14, 14) ;
+  color: rgb(184, 14, 14);
 }
 
 nav .logo img {
-
-    width: 120px ;
-    padding-left: 50px ;
-   
+  width: 120px;
+  padding-left: 50px;
 }
 
 nav .icons a {
-
-    text-decoration: none;
-    font-size: 30px ;
-    color: white;
-    transition: all linear 0.5s ;
-    padding-left: 10px ;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  transition: all linear 0.5s;
+  padding-left: 10px;
 }
 
-
 nav .icons a:hover {
-
-    color:red;
-    transform: scale(1);
-
+  color: red;
+  transform: scale(1);
 }

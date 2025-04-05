@@ -1,21 +1,30 @@
 import { NavLink } from "react-router";
 import React from "react";
-import logo from "../assets/logo.png"
-import { BiLogoFacebook, BiLogoInstagram, BiLogoLinkedin } from "react-icons/bi";
-
+import logo from "../assets/logo.png";
+import {
+  BiLogoFacebook,
+  BiLogoInstagram,
+  BiLogoLinkedin,
+} from "react-icons/bi";
 
 function Navbar() {
   return (
     <>
       <nav>
         <div className="logo">
-            <img src= {logo} alt="logo for nav" />
+          <img src={logo} alt="logo for nav" />
         </div>
-        
+
         <div className="icons">
-          <a href=""><BiLogoFacebook />  </a>
-          <a href=""><BiLogoInstagram />  </a>
-          <a href=""><BiLogoLinkedin />  </a>
+          <a href="">
+            <BiLogoFacebook />{" "}
+          </a>
+          <a href="">
+            <BiLogoInstagram />{" "}
+          </a>
+          <a href="">
+            <BiLogoLinkedin />{" "}
+          </a>
         </div>
 
         <div className="links">
