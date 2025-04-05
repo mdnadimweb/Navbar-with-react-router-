@@ -16,13 +16,13 @@ function Navbar() {
         </div>
 
         <div className="icons">
-          <a href="">
+          <a href="https://www.facebook.com/" target="_blank">
             <BiLogoFacebook />{" "}
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/" target="_blank">
             <BiLogoInstagram />{" "}
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/" target="_blank">
             <BiLogoLinkedin />{" "}
           </a>
         </div>
@@ -34,6 +34,7 @@ function Navbar() {
             <NavLink to="/contact">Contact</NavLink>
             <NavLink to="/login">Login</NavLink>
           </ul>
+         
         </div>
       </nav>
     </>

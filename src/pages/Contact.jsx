@@ -12,7 +12,7 @@ function Contact() {
 
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, soluta. Tempora alias et similique voluptates assumenda id omnis doloremque quos consequuntur cumque! Assumenda corporis eius deleniti! Laboriosam odit quia ad et praesentium? Voluptas voluptatibus laboriosam, repudiandae repellendus maxime, omnis, beatae ex nisi magni doloremque ducimus! Fuga pariatur voluptates quisquam tenetur!</p>
 
-<button onClick={()=>{
+<button className="button" onClick={()=>{
     navigate("/"); 
 }}>go to home </button>
     
