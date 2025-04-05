@@ -6,11 +6,13 @@ nav {
 
 
     height:80px ; 
-    background-color: black;
+    background-color: rgb(167, 166, 166);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center ;
     flex-direction: row;
+    width: 100%;
+    
 
 }
 
@@ -27,6 +29,11 @@ nav ul a {
 
 }
 
+nav .links {
+
+    padding-left: 50px ;
+}
+
 nav ul a:hover {
 
     color: red;
@@ -39,4 +46,26 @@ nav .active {
     color: rgb(184, 14, 14) ;
 }
 
+nav .logo img {
 
+    width: 120px ;
+    padding-left: 50px ;
+   
+}
+
+nav .icons a {
+
+    text-decoration: none;
+    font-size: 30px ;
+    color: white;
+    transition: all linear 0.5s ;
+    padding-left: 10px ;
+}
+
+
+nav .icons a:hover {
+
+    color:red;
+    transform: scale(1);
+
+}
