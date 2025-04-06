@@ -62,43 +62,96 @@ nav .icons a:hover {
   transform: scale(1);
 }
 
-
 .card {
-
-    width:auto;
-    padding: 20px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row ;
-
+  width: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .sub_card {
-
-    margin: 10px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgba(187, 255, 198, 0.514);
-    padding: 10px 30px ;
-    text-transform: uppercase;
-    
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(187, 255, 198, 0.514);
+  padding: 10px 30px;
+  text-transform: uppercase;
 }
 
 .head {
-
-    padding: 20px 20px ;
+  padding: 20px 20px;
 }
 
 .button {
+  padding: 10px 15px;
+  background-color: rgba(189, 189, 189, 0.623);
+  color: rgb(230, 0, 0);
+  font-size: 18px;
+  border: none;
+}
 
-    padding: 10px 15px ;
-    background-color: rgba(189, 189, 189, 0.623);
-    color: rgb(230, 0, 0);
-    font-size: 18px ;
-    border: none;
-    
+.form_main {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  padding: 40px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_main .input {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form_main .input input {
+  padding: 10px;
+  width: 400px ;
+  background-color: rgba(198, 254, 255, 0.527);
+  border: none;
+  font-size: 15px ;
+}
+
+.form_main .input input:hover {
+  border: 1px solid rgb(2, 107, 2);
+}
+
+.form_main h1 {
+
+  text-align: center;
+  text-transform: uppercase;
+  color:#3a0ca3;
+}
+
+/* .button_form{
+
+  display: flex;
+  justify-content: center;
+ 
+} */
+
+
+.button_form button {
+
+  text-align: center;
+  border: none;
+  padding: 10px 20px ;
+  margin-top: 10px ;
+  background-color:rgba(206, 255, 210, 0.747);
+  font-size: 16px ;
+  border-radius: 5px ;
 
 }
+
+.button_form button:hover{
+
+  background-color: rgba(255, 200, 200, 0.699);
+  border: 1px solid rgb(139, 0, 0);
+}
+
