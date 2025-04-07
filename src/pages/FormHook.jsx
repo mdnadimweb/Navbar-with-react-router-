@@ -2,7 +2,18 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 
 function FormHook() {
-  const { register, handleSubmit } = useForm();
+  const value = {
+    defaultValues: {
+      name: "nadim",
+      email: "nadim@gmail.com",
+    },
+  };
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm(value);
   const [submittedData, setSubmittedData] = useState(null);
 
   const onsubmit = (data) => {
@@ -18,7 +29,12 @@ function FormHook() {
 
           <div className="input">
             <label>Name:</label>
-            <input {...register("name")} type="text" placeholder="Enter name" />
+            <input
+              {...register("name", { required: "name is required" })}
+              type="text"
+              placeholder="Enter name"
+            />
+            {errors.name && <p>{errors.name.message}</p>}
           </div>
 
           <div className="input">
@@ -46,7 +62,7 @@ function FormHook() {
       </div>
 
       {submittedData && (
-        <div className="submitted-data mt-4">
+        <div className="shwodata">
           <h2>Submitted Data:</h2>
           <p>Name: {submittedData.name}</p>
           <p>Email: {submittedData.email}</p>
