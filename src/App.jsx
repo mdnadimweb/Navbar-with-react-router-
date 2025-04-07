@@ -3,7 +3,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
-import ContactForm from "./pages/form"
+import ContactForm from "./pages/form";
+import New_form from "./pages/New_form";
 import { BrowserRouter, Route, Routes } from "react-router";
 import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
@@ -19,7 +20,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/*" element={<Error />} />
-          <Route path="/ContactForm" element={<ContactForm/>} />
+          <Route path="/ContactForm" element={<ContactForm />} />
+          <Route path="/New_form" element={<New_form />} />
         </Routes>
       </BrowserRouter>
     </>

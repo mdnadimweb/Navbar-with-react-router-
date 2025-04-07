@@ -97,7 +97,7 @@ nav .icons a:hover {
 .form_main {
   font-family: Arial, sans-serif;
   background: #f7f7f7;
-  padding: 40px;  
+  padding: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,10 +112,10 @@ nav .icons a:hover {
 
 .form_main .input input {
   padding: 10px;
-  width: 400px ;
-  background-color: rgba(198, 254, 255, 0.527);
+  width: 400px;
+  background-color: rgba(198, 254, 255, 0.37);
   border: none;
-  font-size: 15px ;
+  font-size: 15px;
 }
 
 .form_main .input input:hover {
@@ -123,10 +123,9 @@ nav .icons a:hover {
 }
 
 .form_main h1 {
-
   text-align: center;
   text-transform: uppercase;
-  color:#3a0ca3;
+  color: #3a0ca3;
 }
 
 /* .button_form{
@@ -136,22 +135,17 @@ nav .icons a:hover {
  
 } */
 
-
 .button_form button {
-
   text-align: center;
   border: none;
-  padding: 10px 20px ;
-  margin-top: 10px ;
-  background-color:rgba(206, 255, 210, 0.747);
-  font-size: 16px ;
-  border-radius: 5px ;
-
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: rgba(206, 255, 210, 0.384);
+  font-size: 16px;
+  border-radius: 5px;
 }
 
-.button_form button:hover{
-
+.button_form button:hover {
   background-color: rgba(255, 200, 200, 0.699);
   border: 1px solid rgb(139, 0, 0);
 }
-

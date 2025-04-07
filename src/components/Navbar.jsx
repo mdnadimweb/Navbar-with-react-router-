@@ -34,6 +34,7 @@ function Navbar() {
             <NavLink to="/contact">Contact</NavLink>
             <NavLink to="/login">Login</NavLink>
             <NavLink to="/ContactForm">form</NavLink>
+            <NavLink to="/New_form">New_form</NavLink>
           </ul>
          
         </div>
