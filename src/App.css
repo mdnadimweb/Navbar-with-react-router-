@@ -149,3 +149,25 @@ nav .icons a:hover {
   background-color: rgba(255, 200, 200, 0.699);
   border: 1px solid rgb(139, 0, 0);
 }
+
+.shwodata {
+  background-color: rgba(61, 61, 61, 0.384);
+  color: rgb(134, 28, 255);
+  width: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.shwodata {
+  margin: auto;
+}
+
+.shwodata p {
+  font-size: 20px;
+  color: rgb(160, 0, 0);
+}
+
+.alert {
+  color: red;
+}
